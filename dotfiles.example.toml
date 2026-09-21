@@ -1,0 +1,13 @@
+[[link]]
+source = "niri"
+target = "~/.config/niri"
+
+[[config]]
+source = "zramen/zramen.conf"
+target = "/etc/conf.d/zramen"
+sudo = true
+
+[[script]]
+source = "openrc/internal-keyboard-guard"
+target = "/etc/init.d/internal-keyboard-guard"
+sudo = true

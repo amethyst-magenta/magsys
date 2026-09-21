@@ -1,0 +1,11 @@
+[package]
+name = "magsys"
+version = "0.1.0"
+edition = "2024"
+description = "A small, safe dotfiles deployment utility"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+
